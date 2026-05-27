@@ -932,10 +932,11 @@ def page_map(selected_city: str = "Metro City (Demo)"):
     m = folium.Map(location=map_center, zoom_start=map_zoom, tiles=tiles, prefer_canvas=True)
 
     # Metro line polylines + stop circles
+    # Build line_cfg dynamically so any city's IDs work
+    _palette = ["#ef4444", "#6366f1", "#22c55e", "#f59e0b", "#06b6d4", "#ec4899"]
     line_cfg = {
-        "M1": {"color": "#ef4444", "label": "Red Line"},
-        "M2": {"color": "#6366f1", "label": "Blue Line"},
-        "M3": {"color": "#22c55e", "label": "Green Line"},
+        line["id"]: {"color": _palette[i % len(_palette)], "label": line["name"]}
+        for i, line in enumerate(transit["metro_lines"])
     }
     for line in transit["metro_lines"]:
         cfg    = line_cfg[line["id"]]
