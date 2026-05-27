@@ -1,0 +1,121 @@
+{
+  "city": "Delhi",
+  "state": "NCT of Delhi",
+  "center": {"lat": 28.6139, "lng": 77.2090},
+  "zoom": 11,
+  "landmarks": [
+    {"id": "DEL001", "name": "New Delhi Railway Station",     "type": "transit_hub",    "lat": 28.6419, "lng": 77.2194, "description": "India's busiest railway station — major terminus for express and Rajdhani/Shatabdi trains with 16 platforms."},
+    {"id": "DEL002", "name": "Connaught Place",               "type": "business_district","lat": 28.6304, "lng": 77.2177, "description": "Delhi's central business district — Georgian-era circular market with offices, restaurants and the Rajiv Chowk metro hub."},
+    {"id": "DEL003", "name": "India Gate",                    "type": "heritage",       "lat": 28.6129, "lng": 77.2295, "description": "42-metre war memorial on Kartavya Path — iconic national monument and popular leisure destination in New Delhi."},
+    {"id": "DEL004", "name": "Cyber Hub – Gurugram",          "type": "business_district","lat": 28.4944, "lng": 77.0893, "description": "Gurugram's premier corporate and F&B destination with 100+ eateries, startups and MNC offices in DLF Cyber City."},
+    {"id": "DEL005", "name": "IGI Airport – Terminal 3",      "type": "airport",        "lat": 28.5562, "lng": 77.1000, "description": "Indira Gandhi International Airport T3 — India's busiest airport serving 70M+ passengers/year with direct metro access."},
+    {"id": "DEL006", "name": "Lajpat Nagar Central Market",   "type": "retail",         "lat": 28.5677, "lng": 77.2434, "description": "South Delhi's bustling wholesale and retail market for textiles, ethnic wear, household goods and street food."},
+    {"id": "DEL007", "name": "AIIMS Delhi",                   "type": "hospital",       "lat": 28.5672, "lng": 77.2100, "description": "All India Institute of Medical Sciences — India's premier public hospital and research centre with 2,478 beds."},
+    {"id": "DEL008", "name": "IIT Delhi",                     "type": "education",      "lat": 28.5450, "lng": 77.1926, "description": "Indian Institute of Technology Delhi — leading engineering and research campus in Hauz Khas, South Delhi."},
+    {"id": "DEL009", "name": "Red Fort (Lal Qila)",           "type": "heritage",       "lat": 28.6562, "lng": 77.2410, "description": "UNESCO World Heritage Mughal fortress — 17th-century red sandstone citadel and India's Independence Day venue."},
+    {"id": "DEL010", "name": "Qutub Minar Complex",           "type": "heritage",       "lat": 28.5244, "lng": 77.1855, "description": "UNESCO World Heritage site — 72.5-metre brick minaret built in 1193, tallest minaret in India, surrounded by medieval ruins."},
+    {"id": "DEL011", "name": "Lotus Temple",                  "type": "cultural",       "lat": 28.5535, "lng": 77.2588, "description": "Baha'i House of Worship in the form of a blooming lotus — one of the most visited buildings in the world."},
+    {"id": "DEL012", "name": "Hauz Khas Village",             "type": "entertainment",  "lat": 28.5494, "lng": 77.2001, "description": "Urban village with medieval ruins, upscale restaurants, art galleries and nightlife around a 13th-century reservoir."},
+    {"id": "DEL013", "name": "Saket Mall District",           "type": "retail",         "lat": 28.5200, "lng": 77.2167, "description": "South Delhi's shopping cluster — DLF Place, Select CITYWALK, MGF Metropolitan malls in one area."},
+    {"id": "DEL014", "name": "Dwarka Sector 21 Metro Hub",    "type": "transit_hub",    "lat": 28.5527, "lng": 77.0543, "description": "Western Delhi's largest metro interchange and end-of-line station for Blue Line, connected to Gurugram rapid transit."},
+    {"id": "DEL015", "name": "Karol Bagh Market",             "type": "retail",         "lat": 28.6501, "lng": 77.1900, "description": "Dense commercial market in Central Delhi — known for electronics, textiles, jewellery, and budget accommodation."}
+  ],
+  "metro_lines": [
+    {
+      "id": "DEL_M1",
+      "name": "Yellow Line (Line 2)",
+      "type": "metro",
+      "frequency_minutes": 4,
+      "operating_hours": "05:30–23:30",
+      "stops": [
+        {"id": "DEL_M1_S1",  "name": "Samaypur Badli",       "lat": 28.7304, "lng": 77.1433},
+        {"id": "DEL_M1_S2",  "name": "Rohini East",          "lat": 28.7062, "lng": 77.1391},
+        {"id": "DEL_M1_S3",  "name": "Pitampura",            "lat": 28.6920, "lng": 77.1341},
+        {"id": "DEL_M1_S4",  "name": "Netaji Subhash Place", "lat": 28.6935, "lng": 77.1552},
+        {"id": "DEL_M1_S5",  "name": "Azadpur",              "lat": 28.7043, "lng": 77.1836},
+        {"id": "DEL_M1_S6",  "name": "Vishwa Vidyalaya",     "lat": 28.6933, "lng": 77.2132},
+        {"id": "DEL_M1_S7",  "name": "Civil Lines",          "lat": 28.6734, "lng": 77.2186},
+        {"id": "DEL_M1_S8",  "name": "Kashmere Gate",        "lat": 28.6657, "lng": 77.2265},
+        {"id": "DEL_M1_S9",  "name": "Chandni Chowk",        "lat": 28.6557, "lng": 77.2302},
+        {"id": "DEL_M1_S10", "name": "New Delhi",            "lat": 28.6419, "lng": 77.2194},
+        {"id": "DEL_M1_S11", "name": "Rajiv Chowk",          "lat": 28.6329, "lng": 77.2197},
+        {"id": "DEL_M1_S12", "name": "Central Secretariat",  "lat": 28.6148, "lng": 77.2078},
+        {"id": "DEL_M1_S13", "name": "Udyog Bhavan",         "lat": 28.5693, "lng": 77.2014},
+        {"id": "DEL_M1_S14", "name": "AIIMS",                "lat": 28.5672, "lng": 77.2100},
+        {"id": "DEL_M1_S15", "name": "Hauz Khas",            "lat": 28.5442, "lng": 77.2070},
+        {"id": "DEL_M1_S16", "name": "Malviya Nagar",        "lat": 28.5244, "lng": 77.2167},
+        {"id": "DEL_M1_S17", "name": "Saket",                "lat": 28.5200, "lng": 77.2167},
+        {"id": "DEL_M1_S18", "name": "HUDA City Centre",     "lat": 28.4595, "lng": 77.0266}
+      ]
+    },
+    {
+      "id": "DEL_M2",
+      "name": "Blue Line (Line 3 / 4)",
+      "type": "metro",
+      "frequency_minutes": 5,
+      "operating_hours": "05:00–23:30",
+      "stops": [
+        {"id": "DEL_M2_S1", "name": "Dwarka Sector 21",  "lat": 28.5527, "lng": 77.0543},
+        {"id": "DEL_M2_S2", "name": "Dwarka",            "lat": 28.5921, "lng": 77.0460},
+        {"id": "DEL_M2_S3", "name": "Janakpuri West",    "lat": 28.6263, "lng": 77.0798},
+        {"id": "DEL_M2_S4", "name": "Rajouri Garden",    "lat": 28.6462, "lng": 77.1188},
+        {"id": "DEL_M2_S5", "name": "Karol Bagh",        "lat": 28.6501, "lng": 77.1900},
+        {"id": "DEL_M2_S6", "name": "Rajiv Chowk",       "lat": 28.6329, "lng": 77.2197},
+        {"id": "DEL_M2_S7", "name": "Mandi House",       "lat": 28.6228, "lng": 77.2344},
+        {"id": "DEL_M2_S8", "name": "Pragati Maidan",    "lat": 28.6141, "lng": 77.2437},
+        {"id": "DEL_M2_S9", "name": "Indraprastha",      "lat": 28.6083, "lng": 77.2566},
+        {"id": "DEL_M2_S10","name": "Laxmi Nagar",       "lat": 28.6326, "lng": 77.2798},
+        {"id": "DEL_M2_S11","name": "Kaushambi",         "lat": 28.6352, "lng": 77.3265},
+        {"id": "DEL_M2_S12","name": "Vaishali",          "lat": 28.6447, "lng": 77.3370}
+      ]
+    },
+    {
+      "id": "DEL_M3",
+      "name": "Airport Express Line (Orange)",
+      "type": "metro",
+      "frequency_minutes": 10,
+      "operating_hours": "04:45–23:30",
+      "stops": [
+        {"id": "DEL_M3_S1", "name": "New Delhi",         "lat": 28.6419, "lng": 77.2194},
+        {"id": "DEL_M3_S2", "name": "Shivaji Stadium",   "lat": 28.6333, "lng": 77.2097},
+        {"id": "DEL_M3_S3", "name": "Dhaula Kuan",       "lat": 28.5939, "lng": 77.1551},
+        {"id": "DEL_M3_S4", "name": "Delhi Aerocity",    "lat": 28.5543, "lng": 77.1149},
+        {"id": "DEL_M3_S5", "name": "IGI Airport T3",    "lat": 28.5562, "lng": 77.1000},
+        {"id": "DEL_M3_S6", "name": "Dwarka Sector 21",  "lat": 28.5527, "lng": 77.0543}
+      ]
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": "DEL_B1",
+      "name": "DTC Route 505 – ISBT to Gurugram",
+      "type": "express_bus",
+      "frequency_minutes": 20,
+      "operating_hours": "06:00–22:00",
+      "stops": ["ISBT Kashmere Gate", "Connaught Place", "AIIMS", "Saket", "Gurugram Huda City Centre"]
+    },
+    {
+      "id": "DEL_B2",
+      "name": "Airport Express Bus – Connaught Place",
+      "type": "shuttle",
+      "frequency_minutes": 30,
+      "operating_hours": "04:00–01:00",
+      "stops": ["Connaught Place", "Dhaula Kuan", "IGI Airport T2", "IGI Airport T3"]
+    },
+    {
+      "id": "DEL_B3",
+      "name": "DTC Ring Road – Red Fort to Qutub",
+      "type": "local_bus",
+      "frequency_minutes": 15,
+      "operating_hours": "05:30–23:00",
+      "stops": ["Red Fort", "India Gate", "AIIMS", "IIT Delhi", "Qutub Minar"]
+    }
+  ],
+  "bike_share_stations": [
+    {"id": "DEL_BS1", "name": "India Gate Bikes",          "docks": 30, "lat": 28.6129, "lng": 77.2295},
+    {"id": "DEL_BS2", "name": "Connaught Place Bikes",     "docks": 25, "lat": 28.6304, "lng": 77.2177},
+    {"id": "DEL_BS3", "name": "Hauz Khas Village Bikes",   "docks": 20, "lat": 28.5494, "lng": 77.2001},
+    {"id": "DEL_BS4", "name": "Lajpat Nagar Bikes",        "docks": 15, "lat": 28.5677, "lng": 77.2434},
+    {"id": "DEL_BS5", "name": "Rajiv Chowk Metro Bikes",   "docks": 30, "lat": 28.6329, "lng": 77.2197}
+  ]
+}

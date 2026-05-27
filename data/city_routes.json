@@ -1,0 +1,149 @@
+[
+  {
+    "id": "R001",
+    "from": "Central Station",
+    "to": "Tech Park",
+    "distance_km": 2.1,
+    "modes": ["metro", "bus", "bike", "walk"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Blue Line", "duration_min": 8, "cost": 2.5, "changes": 0},
+      {"mode": "bus", "line": "City Express 101", "duration_min": 18, "cost": 1.8, "changes": 0},
+      {"mode": "bike", "duration_min": 12, "cost": 0, "changes": 0},
+      {"mode": "walk", "duration_min": 28, "cost": 0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.4,
+    "description": "Direct Blue Line connection from Central Station to Tech Park. Most reliable option during peak hours."
+  },
+  {
+    "id": "R002",
+    "from": "Central Station",
+    "to": "Airport Terminal",
+    "distance_km": 18.5,
+    "modes": ["metro", "bus", "taxi"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Red Line", "duration_min": 35, "cost": 7.5, "changes": 0},
+      {"mode": "bus", "line": "Airport Shuttle 305", "duration_min": 55, "cost": 5.0, "changes": 0},
+      {"mode": "taxi", "duration_min": 40, "cost": 45.0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.2,
+    "description": "Red Line express is the fastest and most cost-effective way to the airport. Allow extra time during peak hours."
+  },
+  {
+    "id": "R003",
+    "from": "University Campus",
+    "to": "Financial District",
+    "distance_km": 3.8,
+    "modes": ["metro", "bus"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Blue Line → Red Line", "duration_min": 18, "cost": 2.5, "changes": 1},
+      {"mode": "bus", "line": "City Express 101", "duration_min": 30, "cost": 1.8, "changes": 0}
+    ],
+    "peak_delay_factor": 1.5,
+    "description": "One change at Central Station from Blue to Red Line. Bus is slower but direct with no transfers."
+  },
+  {
+    "id": "R004",
+    "from": "Medical Center",
+    "to": "Tech Park",
+    "distance_km": 4.2,
+    "modes": ["metro", "bus", "taxi"],
+    "recommended_mode": "bus",
+    "transit_options": [
+      {"mode": "bus", "line": "City Express 101 (via Central)", "duration_min": 25, "cost": 1.8, "changes": 1},
+      {"mode": "metro", "line": "Red Line → Blue Line", "duration_min": 20, "cost": 2.5, "changes": 1},
+      {"mode": "taxi", "duration_min": 15, "cost": 18.0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.6,
+    "description": "Multiple options available. Metro is faster but requires transfer at Central Station."
+  },
+  {
+    "id": "R005",
+    "from": "North Suburbs Hub",
+    "to": "Financial District",
+    "distance_km": 8.3,
+    "modes": ["metro", "bus"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Red Line", "duration_min": 28, "cost": 3.5, "changes": 0},
+      {"mode": "bus", "line": "City Express 101", "duration_min": 45, "cost": 2.0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.3,
+    "description": "Red Line direct connection. Morning peak (07:00-09:00) sees high demand — arrive early at platform."
+  },
+  {
+    "id": "R006",
+    "from": "Riverside Park",
+    "to": "University Campus",
+    "distance_km": 3.5,
+    "modes": ["metro", "bike", "walk"],
+    "recommended_mode": "bike",
+    "transit_options": [
+      {"mode": "metro", "line": "Blue Line", "duration_min": 15, "cost": 2.5, "changes": 1},
+      {"mode": "bike", "duration_min": 20, "cost": 2.0, "changes": 0},
+      {"mode": "walk", "duration_min": 45, "cost": 0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.1,
+    "description": "Bike route follows the riverside path — scenic and efficient. Metro requires transfer at Central Station."
+  },
+  {
+    "id": "R007",
+    "from": "Central Station",
+    "to": "Shopping Mall",
+    "distance_km": 5.8,
+    "modes": ["metro", "bus"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Green Line", "duration_min": 22, "cost": 2.5, "changes": 0},
+      {"mode": "bus", "line": "Local Bus", "duration_min": 35, "cost": 1.8, "changes": 0}
+    ],
+    "peak_delay_factor": 1.3,
+    "description": "Green Line runs directly to Shopping Mall. Avoid weekend afternoons — very crowded."
+  },
+  {
+    "id": "R008",
+    "from": "Tech Park",
+    "to": "Old Town Square",
+    "distance_km": 2.8,
+    "modes": ["metro", "bike", "walk"],
+    "recommended_mode": "bike",
+    "transit_options": [
+      {"mode": "metro", "line": "Blue Line → transfer", "duration_min": 20, "cost": 2.5, "changes": 1},
+      {"mode": "bike", "duration_min": 15, "cost": 2.0, "changes": 0},
+      {"mode": "walk", "duration_min": 38, "cost": 0, "changes": 0}
+    ],
+    "peak_delay_factor": 1.2,
+    "description": "Bike share is the most efficient option — pleasant route through the city center with dedicated lanes."
+  },
+  {
+    "id": "R009",
+    "from": "Industrial Zone",
+    "to": "Central Station",
+    "distance_km": 6.1,
+    "modes": ["metro", "bus"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Red Line", "duration_min": 18, "cost": 2.5, "changes": 0},
+      {"mode": "bus", "line": "Local Bus", "duration_min": 40, "cost": 1.8, "changes": 0}
+    ],
+    "peak_delay_factor": 1.4,
+    "description": "Red Line provides fast direct service. Early morning industrial shift workers (05:00-06:00) use this heavily."
+  },
+  {
+    "id": "R010",
+    "from": "Sports Arena",
+    "to": "Central Station",
+    "distance_km": 4.2,
+    "modes": ["metro", "bus", "walk"],
+    "recommended_mode": "metro",
+    "transit_options": [
+      {"mode": "metro", "line": "Green Line", "duration_min": 15, "cost": 2.5, "changes": 0},
+      {"mode": "bus", "line": "Local Bus", "duration_min": 25, "cost": 1.8, "changes": 0},
+      {"mode": "walk", "duration_min": 55, "cost": 0, "changes": 0}
+    ],
+    "peak_delay_factor": 2.0,
+    "description": "CAUTION: Severely congested after major events. Allow 2x normal journey time post-event."
+  }
+]

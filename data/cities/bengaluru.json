@@ -1,0 +1,108 @@
+{
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "center": {"lat": 12.9716, "lng": 77.5946},
+  "zoom": 12,
+  "landmarks": [
+    {"id": "BLR001", "name": "KSR Bengaluru City Railway Station", "type": "transit_hub",   "lat": 12.9766, "lng": 77.5713, "description": "Krantivira Sangolli Rayanna Station — Bengaluru's main railway terminus connecting city, suburban and long-distance trains."},
+    {"id": "BLR002", "name": "MG Road",                            "type": "business_district","lat": 12.9756, "lng": 77.6073, "description": "Mahatma Gandhi Road — prime commercial corridor with offices, retail, restaurants, and the MG Road Namma Metro station."},
+    {"id": "BLR003", "name": "Electronic City",                    "type": "business_district","lat": 12.8399, "lng": 77.6770, "description": "India's largest IT hub housing Infosys, Wipro, TCS and 200+ tech companies across Phases 1 and 2."},
+    {"id": "BLR004", "name": "Whitefield Business District",       "type": "business_district","lat": 12.9698, "lng": 77.7500, "description": "East Bengaluru's major IT corridor with ITPL, EPIP Zone, and multinational tech campuses."},
+    {"id": "BLR005", "name": "Koramangala",                        "type": "business_district","lat": 12.9352, "lng": 77.6245, "description": "Bengaluru's startup capital and premium residential-commercial zone, home to Flipkart, Swiggy and hundreds of startups."},
+    {"id": "BLR006", "name": "Indiranagar",                        "type": "recreation",       "lat": 12.9784, "lng": 77.6408, "description": "Upscale neighbourhood with 100 Feet Road, vibrant cafes, pubs, boutiques and the Indiranagar Namma Metro station."},
+    {"id": "BLR007", "name": "Lalbagh Botanical Garden",           "type": "recreation",       "lat": 12.9507, "lng": 77.5848, "description": "240-acre botanical garden established in 1760, featuring a glass house, lake, rare tropical plants and jogging tracks."},
+    {"id": "BLR008", "name": "Vidhana Soudha",                     "type": "government",       "lat": 12.9794, "lng": 77.5908, "description": "Seat of Karnataka state legislature — a stunning neoDravidian granite structure and iconic Bengaluru landmark."},
+    {"id": "BLR009", "name": "Kempegowda International Airport",   "type": "airport",          "lat": 13.1986, "lng": 77.7066, "description": "BLR International Airport — South India's busiest airport with 2 terminals, 65+ airlines, and the Namma Metro Airport line."},
+    {"id": "BLR010", "name": "IISc Campus",                        "type": "education",        "lat": 13.0219, "lng": 77.5671, "description": "Indian Institute of Science — premier research university campus spanning 371 acres in Malleswaram."},
+    {"id": "BLR011", "name": "Manipal Hospital Old Airport Road",  "type": "hospital",         "lat": 12.9713, "lng": 77.6481, "description": "350-bed multi-specialty hospital on Old Airport Road, offering advanced cardiac, neuro and orthopaedic care."},
+    {"id": "BLR012", "name": "UB City Mall",                       "type": "retail",           "lat": 12.9716, "lng": 77.5946, "description": "Bengaluru's first luxury mall by UB Group, featuring premium brands, fine dining, and corporate towers."},
+    {"id": "BLR013", "name": "Cubbon Park",                        "type": "recreation",       "lat": 12.9764, "lng": 77.5960, "description": "300-acre statutory park in the heart of the city, with shaded jogging paths, cycling tracks, and colonial-era buildings."},
+    {"id": "BLR014", "name": "Hebbal Interchange",                 "type": "transit_hub",      "lat": 13.0358, "lng": 77.5970, "description": "Major road interchange and upcoming Namma Metro Phase 2 hub connecting North Bengaluru to the airport corridor."},
+    {"id": "BLR015", "name": "Marathahalli Bridge",                "type": "transit_hub",      "lat": 12.9591, "lng": 77.6972, "description": "Key road junction in East Bengaluru connecting Outer Ring Road tech corridors to Whitefield and Sarjapur Road."}
+  ],
+  "metro_lines": [
+    {
+      "id": "BLR_M1",
+      "name": "Purple Line (East–West)",
+      "type": "metro",
+      "frequency_minutes": 5,
+      "operating_hours": "05:00–23:00",
+      "stops": [
+        {"id": "BLR_M1_S1", "name": "Baiyappanahalli",      "lat": 12.9965, "lng": 77.6463},
+        {"id": "BLR_M1_S2", "name": "Indiranagar",          "lat": 12.9784, "lng": 77.6408},
+        {"id": "BLR_M1_S3", "name": "Halasuru",             "lat": 12.9756, "lng": 77.6197},
+        {"id": "BLR_M1_S4", "name": "Trinity",              "lat": 12.9716, "lng": 77.6140},
+        {"id": "BLR_M1_S5", "name": "MG Road",              "lat": 12.9756, "lng": 77.6073},
+        {"id": "BLR_M1_S6", "name": "Cubbon Park",          "lat": 12.9764, "lng": 77.5960},
+        {"id": "BLR_M1_S7", "name": "Vidhana Soudha",       "lat": 12.9794, "lng": 77.5908},
+        {"id": "BLR_M1_S8", "name": "Majestic (KSR)",       "lat": 12.9766, "lng": 77.5713},
+        {"id": "BLR_M1_S9", "name": "City Railway Station", "lat": 12.9752, "lng": 77.5622},
+        {"id": "BLR_M1_S10","name": "Vijayanagar",          "lat": 12.9661, "lng": 77.5244},
+        {"id": "BLR_M1_S11","name": "Mysuru Road",          "lat": 12.9525, "lng": 77.4961}
+      ]
+    },
+    {
+      "id": "BLR_M2",
+      "name": "Green Line (North–South)",
+      "type": "metro",
+      "frequency_minutes": 6,
+      "operating_hours": "05:00–23:00",
+      "stops": [
+        {"id": "BLR_M2_S1", "name": "Nagasandra",           "lat": 13.0589, "lng": 77.5247},
+        {"id": "BLR_M2_S2", "name": "Peenya Industry",      "lat": 13.0226, "lng": 77.5245},
+        {"id": "BLR_M2_S3", "name": "Rajajinagar",          "lat": 12.9990, "lng": 77.5513},
+        {"id": "BLR_M2_S4", "name": "Majestic (KSR)",       "lat": 12.9766, "lng": 77.5713},
+        {"id": "BLR_M2_S5", "name": "Lalbagh",              "lat": 12.9507, "lng": 77.5848},
+        {"id": "BLR_M2_S6", "name": "Jayanagar 4th Block",  "lat": 12.9299, "lng": 77.5826},
+        {"id": "BLR_M2_S7", "name": "Banashankari",         "lat": 12.9199, "lng": 77.5664},
+        {"id": "BLR_M2_S8", "name": "Silk Institute",       "lat": 12.8897, "lng": 77.5553}
+      ]
+    },
+    {
+      "id": "BLR_M3",
+      "name": "Yellow Line – Phase 2A (Airport)",
+      "type": "metro",
+      "frequency_minutes": 10,
+      "operating_hours": "05:30–23:30",
+      "stops": [
+        {"id": "BLR_M3_S1", "name": "Hebbal",               "lat": 13.0358, "lng": 77.5970},
+        {"id": "BLR_M3_S2", "name": "Kempapura",            "lat": 13.0635, "lng": 77.5908},
+        {"id": "BLR_M3_S3", "name": "Yelahanka",            "lat": 13.1003, "lng": 77.5963},
+        {"id": "BLR_M3_S4", "name": "KIA Airport Terminal", "lat": 13.1986, "lng": 77.7066}
+      ]
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": "BLR_B1",
+      "name": "BMTC 500C – Majestic to Electronic City",
+      "type": "express_bus",
+      "frequency_minutes": 15,
+      "operating_hours": "05:30–23:00",
+      "stops": ["Majestic", "Silk Board", "Electronic City Phase 1", "Electronic City Phase 2"]
+    },
+    {
+      "id": "BLR_B2",
+      "name": "BMTC Vajra AC – Airport Express",
+      "type": "shuttle",
+      "frequency_minutes": 30,
+      "operating_hours": "04:00–01:00",
+      "stops": ["MG Road", "Trinity Circle", "KIA Airport"]
+    },
+    {
+      "id": "BLR_B3",
+      "name": "BMTC 335E – Indiranagar to Whitefield",
+      "type": "local_bus",
+      "frequency_minutes": 20,
+      "operating_hours": "06:00–22:30",
+      "stops": ["Indiranagar", "Marathahalli", "Whitefield ITPL", "Whitefield Station"]
+    }
+  ],
+  "bike_share_stations": [
+    {"id": "BLR_BS1", "name": "MG Road Metro Bikes",        "docks": 20, "lat": 12.9756, "lng": 77.6073},
+    {"id": "BLR_BS2", "name": "Indiranagar 100ft Bikes",    "docks": 15, "lat": 12.9784, "lng": 77.6408},
+    {"id": "BLR_BS3", "name": "Cubbon Park Bikes",          "docks": 25, "lat": 12.9764, "lng": 77.5960},
+    {"id": "BLR_BS4", "name": "Koramangala 5th Block Bikes","docks": 15, "lat": 12.9352, "lng": 77.6245},
+    {"id": "BLR_BS5", "name": "Lalbagh West Gate Bikes",    "docks": 10, "lat": 12.9507, "lng": 77.5848}
+  ]
+}

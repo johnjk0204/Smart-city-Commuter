@@ -1,0 +1,17 @@
+[
+  {"id": "L001", "name": "Central Station", "type": "transit_hub", "lat": 40.7128, "lng": -74.0060, "description": "Main railway and metro hub serving the entire Metro City, with 12 platforms and connections to all major lines."},
+  {"id": "L002", "name": "Tech Park", "type": "business_district", "lat": 40.7282, "lng": -73.9942, "description": "Major technology and innovation hub with over 200 companies, co-working spaces, and startup incubators."},
+  {"id": "L003", "name": "City Hall", "type": "government", "lat": 40.7127, "lng": -74.0059, "description": "Municipal government headquarters, civic center, and public services hub in the heart of downtown."},
+  {"id": "L004", "name": "University Campus", "type": "education", "lat": 40.7291, "lng": -74.0018, "description": "Metro City University with 30,000 students, multiple faculties, and research centers spread across 50 acres."},
+  {"id": "L005", "name": "Metro Medical Center", "type": "hospital", "lat": 40.7049, "lng": -74.0135, "description": "Level-1 trauma center and regional medical hub with 800 beds, emergency services, and specialty clinics."},
+  {"id": "L006", "name": "Financial District", "type": "business_district", "lat": 40.7074, "lng": -74.0113, "description": "Banking, finance, and insurance hub with headquarters of major financial institutions."},
+  {"id": "L007", "name": "Riverside Park", "type": "recreation", "lat": 40.7033, "lng": -74.0170, "description": "Waterfront park with cycling paths, jogging tracks, outdoor events space, and riverside cafes."},
+  {"id": "L008", "name": "Airport Terminal", "type": "airport", "lat": 40.6413, "lng": -73.7781, "description": "Metro City International Airport with 3 terminals, 50 gates, and connections to 150 destinations worldwide."},
+  {"id": "L009", "name": "Shopping Mall", "type": "retail", "lat": 40.7580, "lng": -73.9855, "description": "Metro Mall — 5-story premier shopping destination with 300 stores, food court, cinema, and entertainment."},
+  {"id": "L010", "name": "Sports Arena", "type": "entertainment", "lat": 40.7505, "lng": -74.0016, "description": "Multi-purpose 20,000-seat arena hosting basketball, hockey, concerts, and major sporting events."},
+  {"id": "L011", "name": "North Suburbs Hub", "type": "transit_hub", "lat": 40.7831, "lng": -73.9712, "description": "Northern commuter interchange connecting suburban train lines, express buses, and park-and-ride facilities."},
+  {"id": "L012", "name": "Industrial Zone", "type": "industrial", "lat": 40.6892, "lng": -74.0445, "description": "Manufacturing and logistics district with warehouses, factories, and freight terminals."},
+  {"id": "L013", "name": "Old Town Square", "type": "heritage", "lat": 40.7200, "lng": -74.0000, "description": "Historic district with colonial-era architecture, museums, restaurants, and tourist attractions."},
+  {"id": "L014", "name": "Science Museum", "type": "cultural", "lat": 40.7350, "lng": -73.9880, "description": "Interactive science and technology museum with planetarium, innovation lab, and STEM education programs."},
+  {"id": "L015", "name": "East Residential Area", "type": "residential", "lat": 40.7200, "lng": -73.9600, "description": "Dense residential neighborhood with apartments, schools, parks, and neighborhood retail."}
+]

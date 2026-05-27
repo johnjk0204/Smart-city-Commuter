@@ -1,0 +1,83 @@
+{
+  "metro_lines": [
+    {
+      "id": "M1",
+      "name": "Red Line",
+      "type": "metro",
+      "frequency_minutes": 5,
+      "operating_hours": "05:00-01:00",
+      "stops": [
+        {"id": "M1-S1", "name": "Airport Station", "landmark_ref": "L008", "lat": 40.6413, "lng": -73.7781},
+        {"id": "M1-S2", "name": "Industrial Zone Station", "landmark_ref": "L012", "lat": 40.6892, "lng": -74.0445},
+        {"id": "M1-S3", "name": "Medical Center Station", "landmark_ref": "L005", "lat": 40.7049, "lng": -74.0135},
+        {"id": "M1-S4", "name": "Financial District Station", "landmark_ref": "L006", "lat": 40.7074, "lng": -74.0113},
+        {"id": "M1-S5", "name": "Central Station Metro", "landmark_ref": "L001", "lat": 40.7128, "lng": -74.0060},
+        {"id": "M1-S6", "name": "Old Town Station", "landmark_ref": "L013", "lat": 40.7200, "lng": -74.0000},
+        {"id": "M1-S7", "name": "City Hall Station", "landmark_ref": "L003", "lat": 40.7127, "lng": -74.0059},
+        {"id": "M1-S8", "name": "North Suburbs Terminal", "landmark_ref": "L011", "lat": 40.7831, "lng": -73.9712}
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Blue Line",
+      "type": "metro",
+      "frequency_minutes": 7,
+      "operating_hours": "05:30-00:30",
+      "stops": [
+        {"id": "M2-S1", "name": "Riverside Park Station", "landmark_ref": "L007", "lat": 40.7033, "lng": -74.0170},
+        {"id": "M2-S2", "name": "Central Station Metro", "landmark_ref": "L001", "lat": 40.7128, "lng": -74.0060},
+        {"id": "M2-S3", "name": "University Station", "landmark_ref": "L004", "lat": 40.7291, "lng": -74.0018},
+        {"id": "M2-S4", "name": "Tech Park Station", "landmark_ref": "L002", "lat": 40.7282, "lng": -73.9942},
+        {"id": "M2-S5", "name": "Science Museum Station", "landmark_ref": "L014", "lat": 40.7350, "lng": -73.9880},
+        {"id": "M2-S6", "name": "East Residential Station", "landmark_ref": "L015", "lat": 40.7200, "lng": -73.9600}
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Green Line",
+      "type": "metro",
+      "frequency_minutes": 10,
+      "operating_hours": "06:00-23:00",
+      "stops": [
+        {"id": "M3-S1", "name": "Sports Arena Station", "landmark_ref": "L010", "lat": 40.7505, "lng": -74.0016},
+        {"id": "M3-S2", "name": "Shopping Mall Station", "landmark_ref": "L009", "lat": 40.7580, "lng": -73.9855},
+        {"id": "M3-S3", "name": "North Suburbs Hub", "landmark_ref": "L011", "lat": 40.7831, "lng": -73.9712},
+        {"id": "M3-S4", "name": "Tech Park North", "landmark_ref": "L002", "lat": 40.7282, "lng": -73.9942},
+        {"id": "M3-S5", "name": "Central Station Metro", "landmark_ref": "L001", "lat": 40.7128, "lng": -74.0060}
+      ]
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": "B101",
+      "name": "City Express 101",
+      "type": "express_bus",
+      "frequency_minutes": 15,
+      "operating_hours": "06:00-22:00",
+      "stops": ["Central Station", "Financial District", "Tech Park", "University Campus", "North Suburbs Hub"]
+    },
+    {
+      "id": "B202",
+      "name": "Circular 202",
+      "type": "local_bus",
+      "frequency_minutes": 12,
+      "operating_hours": "05:30-23:30",
+      "stops": ["Central Station", "City Hall", "Old Town Square", "Riverside Park", "Medical Center", "Central Station"]
+    },
+    {
+      "id": "B305",
+      "name": "Airport Shuttle 305",
+      "type": "shuttle",
+      "frequency_minutes": 20,
+      "operating_hours": "04:00-01:00",
+      "stops": ["Central Station", "Financial District", "Medical Center", "Airport Terminal"]
+    }
+  ],
+  "bike_share_stations": [
+    {"id": "BS01", "name": "Central Station Bikes", "landmark_ref": "L001", "docks": 30, "lat": 40.7128, "lng": -74.0060},
+    {"id": "BS02", "name": "Tech Park Bikes", "landmark_ref": "L002", "docks": 20, "lat": 40.7282, "lng": -73.9942},
+    {"id": "BS03", "name": "University Bikes", "landmark_ref": "L004", "docks": 25, "lat": 40.7291, "lng": -74.0018},
+    {"id": "BS04", "name": "Riverside Park Bikes", "landmark_ref": "L007", "docks": 15, "lat": 40.7033, "lng": -74.0170},
+    {"id": "BS05", "name": "Old Town Bikes", "landmark_ref": "L013", "docks": 20, "lat": 40.7200, "lng": -74.0000}
+  ]
+}

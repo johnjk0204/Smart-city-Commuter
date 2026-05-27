@@ -1,0 +1,105 @@
+{
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "center": {"lat": 19.0760, "lng": 72.8777},
+  "zoom": 12,
+  "landmarks": [
+    {"id": "MUM001", "name": "CST – Chhatrapati Shivaji Maharaj Terminus", "type": "transit_hub",    "lat": 18.9398, "lng": 72.8354, "description": "UNESCO World Heritage railway terminus — Mumbai's main long-distance and suburban rail hub with iconic Victorian Gothic architecture."},
+    {"id": "MUM002", "name": "Bandra Kurla Complex (BKC)",                 "type": "business_district","lat": 19.0596, "lng": 72.8648, "description": "Mumbai's premier financial and commercial hub hosting RBI, SEBI, stock exchanges, and major bank HQs."},
+    {"id": "MUM003", "name": "Nariman Point",                              "type": "business_district","lat": 18.9256, "lng": 72.8242, "description": "South Mumbai's CBD on the tip of the peninsula — home to the Stock Exchange and corporate towers with sea views."},
+    {"id": "MUM004", "name": "Andheri Railway Station",                    "type": "transit_hub",    "lat": 19.1197, "lng": 72.8468, "description": "Western Railway's busiest suburban station and intersection of Metro Line 1 and Western Line local trains."},
+    {"id": "MUM005", "name": "Dadar Station",                              "type": "transit_hub",    "lat": 19.0178, "lng": 72.8478, "description": "Key interchange connecting Western Line, Central Line, and Harbour Line suburban trains in central Mumbai."},
+    {"id": "MUM006", "name": "Gateway of India",                           "type": "heritage",       "lat": 18.9220, "lng": 72.8347, "description": "Iconic 1924 colonial arch monument overlooking the Arabian Sea — Mumbai's most famous landmark and tourist gateway."},
+    {"id": "MUM007", "name": "Marine Drive",                               "type": "recreation",     "lat": 18.9438, "lng": 72.8233, "description": "The Queen's Necklace — 3.6 km seafront promenade along Back Bay, ideal for walking and evening strolls."},
+    {"id": "MUM008", "name": "IIT Bombay – Powai",                         "type": "education",      "lat": 19.1333, "lng": 72.9133, "description": "Premier technology institute on the shores of Powai Lake, with 14,000 students and world-class research facilities."},
+    {"id": "MUM009", "name": "Lilavati Hospital – Bandra",                 "type": "hospital",       "lat": 19.0513, "lng": 72.8260, "description": "Flagship multi-specialty hospital in Bandra, renowned for cardiac, neurology and oncology departments."},
+    {"id": "MUM010", "name": "CSIA – T2 International Airport",            "type": "airport",        "lat": 19.0896, "lng": 72.8656, "description": "Chhatrapati Shivaji Maharaj International Airport Terminal 2 — India's 2nd busiest airport serving 45M+ passengers/year."},
+    {"id": "MUM011", "name": "Phoenix Market City – Kurla",                "type": "retail",         "lat": 19.0839, "lng": 72.8869, "description": "2.1 million sq ft shopping destination with 500+ brands, multiplex, food court, and entertainment zone in Kurla."},
+    {"id": "MUM012", "name": "Film City – Goregaon",                       "type": "entertainment",  "lat": 19.1631, "lng": 72.8491, "description": "Famous Dadasaheb Phalke Chitranagari — 520-acre studio complex that produces the bulk of Bollywood productions."},
+    {"id": "MUM013", "name": "Colaba Causeway",                            "type": "heritage",       "lat": 18.9067, "lng": 72.8147, "description": "Colonial-era commercial street in South Mumbai lined with heritage buildings, street markets, cafes and antique shops."},
+    {"id": "MUM014", "name": "Worli Sea Link (South End)",                 "type": "transit_hub",    "lat": 19.0177, "lng": 72.8168, "description": "Bandra-Worli Sea Link southern anchorage — cable-stayed bridge reducing Western suburbs to South Mumbai time by 30 min."},
+    {"id": "MUM015", "name": "Thane Railway Station",                      "type": "transit_hub",    "lat": 19.1930, "lng": 73.0169, "description": "Thane — large suburban railway junction connecting Central Line and Trans-Harbour Line to Navi Mumbai and beyond."}
+  ],
+  "metro_lines": [
+    {
+      "id": "MUM_M1",
+      "name": "Metro Line 1 – Red (Versova–Ghatkopar)",
+      "type": "metro",
+      "frequency_minutes": 5,
+      "operating_hours": "05:30–23:30",
+      "stops": [
+        {"id": "MUM_M1_S1", "name": "Versova",          "lat": 19.1193, "lng": 72.8214},
+        {"id": "MUM_M1_S2", "name": "D N Nagar",        "lat": 19.1116, "lng": 72.8313},
+        {"id": "MUM_M1_S3", "name": "Andheri",          "lat": 19.1197, "lng": 72.8468},
+        {"id": "MUM_M1_S4", "name": "Chakala",          "lat": 19.1052, "lng": 72.8579},
+        {"id": "MUM_M1_S5", "name": "Airport Road",     "lat": 19.0986, "lng": 72.8618},
+        {"id": "MUM_M1_S6", "name": "Marol Naka",       "lat": 19.0924, "lng": 72.8678},
+        {"id": "MUM_M1_S7", "name": "Saki Naka",        "lat": 19.0861, "lng": 72.8771},
+        {"id": "MUM_M1_S8", "name": "Asalpha",          "lat": 19.0800, "lng": 72.8862},
+        {"id": "MUM_M1_S9", "name": "Ghatkopar",        "lat": 19.0850, "lng": 72.9087}
+      ]
+    },
+    {
+      "id": "MUM_M2",
+      "name": "Metro Line 2A – Yellow (Dahisar E–DN Nagar)",
+      "type": "metro",
+      "frequency_minutes": 7,
+      "operating_hours": "05:30–23:00",
+      "stops": [
+        {"id": "MUM_M2_S1", "name": "Dahisar East",     "lat": 19.2473, "lng": 72.8686},
+        {"id": "MUM_M2_S2", "name": "Borivali East",    "lat": 19.2307, "lng": 72.8567},
+        {"id": "MUM_M2_S3", "name": "Kandivali East",   "lat": 19.2052, "lng": 72.8523},
+        {"id": "MUM_M2_S4", "name": "Malad East",       "lat": 19.1862, "lng": 72.8486},
+        {"id": "MUM_M2_S5", "name": "Goregaon East",    "lat": 19.1631, "lng": 72.8491},
+        {"id": "MUM_M2_S6", "name": "Andheri East",     "lat": 19.1197, "lng": 72.8468},
+        {"id": "MUM_M2_S7", "name": "D N Nagar",        "lat": 19.1116, "lng": 72.8313}
+      ]
+    },
+    {
+      "id": "MUM_M3",
+      "name": "Metro Line 3 – Aqua (Aarey–CSMT)",
+      "type": "metro",
+      "frequency_minutes": 8,
+      "operating_hours": "06:00–23:00",
+      "stops": [
+        {"id": "MUM_M3_S1", "name": "Aarey Colony",     "lat": 19.1624, "lng": 72.8724},
+        {"id": "MUM_M3_S2", "name": "SEEPZ",            "lat": 19.1155, "lng": 72.8676},
+        {"id": "MUM_M3_S3", "name": "BKC",              "lat": 19.0596, "lng": 72.8648},
+        {"id": "MUM_M3_S4", "name": "Vidhan Bhavan",    "lat": 18.9736, "lng": 72.8291},
+        {"id": "MUM_M3_S5", "name": "CSMT",             "lat": 18.9398, "lng": 72.8354}
+      ]
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": "MUM_B1",
+      "name": "BEST A/C Volvo – CST to BKC",
+      "type": "express_bus",
+      "frequency_minutes": 20,
+      "operating_hours": "06:00–22:00",
+      "stops": ["CST", "Dadar", "Sion", "Kurla", "BKC"]
+    },
+    {
+      "id": "MUM_B2",
+      "name": "BEST Airport Express – CST to CSIA",
+      "type": "shuttle",
+      "frequency_minutes": 30,
+      "operating_hours": "04:30–01:00",
+      "stops": ["CST", "Dadar", "Bandra East", "CSIA Terminal 2"]
+    },
+    {
+      "id": "MUM_B3",
+      "name": "BEST Route 210 – Andheri to Colaba",
+      "type": "local_bus",
+      "frequency_minutes": 12,
+      "operating_hours": "05:30–23:30",
+      "stops": ["Andheri", "Bandra", "Worli", "Nariman Point", "Colaba"]
+    }
+  ],
+  "bike_share_stations": [
+    {"id": "MUM_BS1", "name": "Marine Drive Bikes",    "docks": 20, "lat": 18.9438, "lng": 72.8233},
+    {"id": "MUM_BS2", "name": "BKC Bikes",             "docks": 25, "lat": 19.0596, "lng": 72.8648},
+    {"id": "MUM_BS3", "name": "Andheri Station Bikes", "docks": 15, "lat": 19.1197, "lng": 72.8468},
+    {"id": "MUM_BS4", "name": "Dadar Bikes",           "docks": 15, "lat": 19.0178, "lng": 72.8478}
+  ]
+}
